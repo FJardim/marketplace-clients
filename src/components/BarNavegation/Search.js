@@ -8,6 +8,7 @@ const search = () => {
                 <option>Categoria 3</option>
                 <option>Categoria 4</option>
                 <option>Categoria 5</option>
+
             </select>
             <input className="flex h-10 w-96 p-2 bg-white outline-0"
                 placeholder="I´m shopping for...">
