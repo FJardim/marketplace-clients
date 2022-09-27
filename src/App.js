@@ -1,13 +1,13 @@
-import "./App.css";
-
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="">
-        <p>Vamos a crear nuestr Marketplace</p>
+        <p>
+        </p>
       </header>
     </div>
   );
 }
 
 export default App;
+
