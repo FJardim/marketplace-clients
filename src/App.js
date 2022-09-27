@@ -1,13 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="">
-        <p>
-          Vamos a crear nuestr Marketplace
-        </p>
+        <p>Vamos a crear nuestr Marketplace</p>
       </header>
     </div>
   );
