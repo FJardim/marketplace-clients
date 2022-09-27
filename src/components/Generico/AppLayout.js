@@ -16,6 +16,7 @@ const AppLayout = ({ children }) => {
             <NavegationSecundaria />
             <NavegationPrincipal />
             {children}
+
             <Footer />
         </div>
     )
