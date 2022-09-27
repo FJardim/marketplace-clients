@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex  mt-12 text-center justify-center">
-        <span>© 2020 MarketPlace. All Rights Reserved</span>
+        <span>© 2020 MarketPlace. FJ & LV</span>
       </div>
     </footer>
   );
