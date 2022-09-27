@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import NavegationSecundaria from './components/BarNavegation/NavegationSecundaria';
 import Footer from './components/Footer/Footer';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
