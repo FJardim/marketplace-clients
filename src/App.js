@@ -1,13 +1,16 @@
+import { Route, Routes } from "react-router-dom";
+import AppLayout from './components/Generico/AppLayout';
+import Home from './pages/Home';
 const App = () => {
   return (
-    <div className="App">
-      <header className="">
-        <p>
-        </p>
-      </header>
-    </div>
+    <AppLayout>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </AppLayout>
   );
 }
 
 export default App;
+
 
