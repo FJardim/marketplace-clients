@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import NavegationPrincipal from './components/BarNavegation/Navegationprincipal'
 import reportWebVitals from './reportWebVitals';
+import NavegationSecundaria from './components/BarNavegation/NavegationSecundaria';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
+    <NavegationSecundaria />
     <NavegationPrincipal />
   </React.StrictMode>
 );
