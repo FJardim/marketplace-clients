@@ -4,7 +4,7 @@ import { BsFacebook, BsYoutube, BsTwitter, BsInstagram } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
-      <div className=" container bg-white flex content-center justify-between">
+      <div className="p-6 container bg-white flex content-center justify-between">
         <div>
           <p className=" text-l font-sans font-bold text-black mb-4">
             Contact us{" "}

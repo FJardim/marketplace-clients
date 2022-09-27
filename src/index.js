@@ -4,6 +4,7 @@ import './index.css';
 import NavegationPrincipal from './components/BarNavegation/Navegationprincipal'
 import reportWebVitals from './reportWebVitals';
 import NavegationSecundaria from './components/BarNavegation/NavegationSecundaria';
+import Footer from './components/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,8 @@ root.render(
     {/* <App /> */}
     <NavegationSecundaria />
     <NavegationPrincipal />
+    {/* <p>cuerpo</p> */}
+    <Footer />
   </React.StrictMode>
 );
 
