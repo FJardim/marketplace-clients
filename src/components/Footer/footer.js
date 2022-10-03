@@ -20,6 +20,7 @@ const Footer = () => {
             <BsTwitter />
             <BsYoutube />
             <BsInstagram />
+
           </div>
         </div>
         <div>
