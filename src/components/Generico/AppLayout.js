@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import NavegationPrincipal from "../BarNavegation/Navegationprincipal";
 import NavegationSecundaria from "../BarNavegation/NavegationSecundaria";
+import Sliderbar from "../BarNavegation/Sliderbar";
 import Footer from "../Footer/footer";
 import Newletter from "../Footer/Newletter";
 
@@ -15,6 +16,7 @@ const AppLayout = ({ children }) => {
     <div className="bg-gray-100">
       <NavegationSecundaria />
       <NavegationPrincipal />
+      <Sliderbar />
       {children}
       <Newletter />
       <Footer />
