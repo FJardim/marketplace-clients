@@ -19,7 +19,7 @@ const Newletter = () => {
         />
         <button
           type="submit"
-          className="rounded bg-yellow-500 px-10 py-4 font-bold text-black sm:rounded-l-none sm:rounded-r-md"
+          className="rounded bg-main-light px-10 py-4 font-bold text-black sm:rounded-l-none sm:rounded-r-md"
         >
           Suscribete
         </button>
