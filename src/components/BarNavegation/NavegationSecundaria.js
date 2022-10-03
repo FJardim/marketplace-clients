@@ -4,9 +4,9 @@ import { AiOutlineBars } from "react-icons/ai";
 const NavegationSecundaria = () => {
     return (
         <div className=" bg-main-dark text-black h-14 px-8">
-            <div className="container flex lg:justify-around h-full">
+            <div className="container flex justify-around ">
                 <div className="flex items-center p-2 space-x-1">
-                    <FaFacebook className="hover:text-white cursor-pointer sm:h-8 sm:w-8 lg:h-4 lg:w-4" />
+                    <FaFacebook className="hover:text-white cursor-pointer" />
                     <FaInstagram className="hover:text-white cursor-pointer" />
                     <FaLinkedinIn className="hover:text-white cursor-pointer" />
                     <FaTwitter className="hover:text-white cursor-pointer" />
