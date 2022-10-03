@@ -15,6 +15,7 @@ const NavegationPrincipal = () => {
           <button className="flex-wrap lg:px-10 sm:px-6">
             <AiOutlineMenu className="h-8 w-8" />
           </button>
+
           <div className="hidden lg:block">
             <Search />
           </div>
