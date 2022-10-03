@@ -5,7 +5,7 @@ import { FaRegUser } from "react-icons/fa";
 
 const NavegationPrincipal = () => {
   return (
-    <div className=" bg-amber-400 text-black h-14 px-8">
+    <div className=" bg-main text-black h-14 px-8">
       <div className="container m-auto h-full">
         <div className="flex justify-content items-center">
           <div className="flex p-2 ">
