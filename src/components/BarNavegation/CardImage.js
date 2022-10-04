@@ -1,21 +1,27 @@
-import React from 'react'
-const CardImage = ({imagen, titulo, description, text}) => {
-  return (
-    <div className='container w-4/12 flex m-auto'>
-      <div>
-        <img src={imagen} alt='imagen'/>
-      </div>
-       <div className='absolute '>
-        <div className='mt-10 ml-4'>
-        <h1 className='font-bold text-base'>{titulo}</h1>
-        <p className='text-sm text-green-800 font-bold'>{description}</p>
+import React from 'react';
+
+const CardImage = ({ title, img, categories, price }) => {
+    return (
+        <div className="flex bg-white w-full rounded-md overflow-hidden shadow-md">
+            <div className='justify-around items-center py-3 px-4 w-full'>
+                <div className='text-3xl px-4 py-3 font-bold'>
+                    {title}
+                </div>
+                <div className='text-lg px-4 py-3 font-bold'>
+                    {categories}
+                </div>
+                <div className='text-xl px-4 py-3 font-bold text-lime-500'>
+                    {price}
+                </div>
+                <button class="bg-main text-white py-2 px-3 rounded my-4 mx-4">
+                    Comprar
+                </button>
+            </div>
+            <div className="w-full">
+                <img className='w-full h-72' src={img} alt="PopularSearch" />
+            </div>
         </div>
-        <button class="bg-main-light hover:bg-white text-white font-bold py-2 px-6 mt-10 ml-4">
-        {text}
-        </button>
-       </div>
-    </div>
-  )
+    );
 }
 
-export default CardImage
+export default CardImage;

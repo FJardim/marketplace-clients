@@ -1,17 +1,16 @@
 import TopCategories from "../components/Generico/TopCategories";
 import cerrajeria from "../assets/categories/cerrajeria.jpg";
 import Plomeria from "../assets/categories/plomeria.png";
-import CardImage from "../components/BarNavegation/CardImage";
-import FondoBlanco from "../assets/FondoBlanco.jpg"
+import Sliderbarproducts from "../components/BarNavegation/Sliderbarproducts";
+
 const Home = () => {
     return (
 
         <div className="container ">
             <div className="flex p-8 ml-2 ">
                 <div className="flex">
-                    <CardImage imagen={FondoBlanco} titulo={"Candado Total"} description={"Just $159.59"} text={"Shop Now"} logo={cerrajeria} />
-                    <CardImage imagen={FondoBlanco} titulo={"Candado Total"} description={"Just $159.59"} text={"Comprar"} logo={cerrajeria} />
-                </div>
+                    <Sliderbarproducts/>
+                    </div>
 
             </div>
             <div className="flex space-x-2 p-8 ml-2">
