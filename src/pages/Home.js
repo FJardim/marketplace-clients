@@ -6,12 +6,15 @@ import FondoBlanco from "../assets/FondoBlanco.jpg"
 const Home = () => {
     return (
 
-        <div className="flex p-8 ml-2">
-            <div className="container flex  p-8 ml-2">
-              <CardImage imagen={FondoBlanco} titulo={"Candado Total"} description={"Just $159.59"} text={"Shop Now"} />
-              <CardImage imagen={FondoBlanco} titulo={"Candado Total"} description={"Just $159.59"} text={"Comprar"} />
+        <div className="container ">
+            <div className="flex p-8 ml-2 ">
+                <div className="flex">
+                    <CardImage imagen={FondoBlanco} titulo={"Candado Total"} description={"Just $159.59"} text={"Shop Now"} logo={cerrajeria} />
+                    <CardImage imagen={FondoBlanco} titulo={"Candado Total"} description={"Just $159.59"} text={"Comprar"} logo={cerrajeria} />
+                </div>
+
             </div>
-            <div className="flex space-x-2">
+            <div className="flex space-x-2 p-8 ml-2">
                 <TopCategories imgCat={cerrajeria} title={"Cerrajería"} />
                 <TopCategories imgCat={Plomeria} title={"Plomeria"} />
             </div>
