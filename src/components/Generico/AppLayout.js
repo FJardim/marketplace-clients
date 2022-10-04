@@ -12,6 +12,7 @@ const AppLayout = ({ children }) => {
   useEffect(() => {
     window.scrollTo({ top: 0 });
   }, [location]);
+
   return (
     <div className="bg-gray-100">
       <NavegationSecundaria />
@@ -19,6 +20,7 @@ const AppLayout = ({ children }) => {
       <Sliderbar />
       {children}
       <Newletter />
+      <div className="p-0.5"></div>
       <Footer />
     </div>
   );
