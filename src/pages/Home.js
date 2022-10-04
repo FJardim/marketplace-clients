@@ -7,8 +7,8 @@ const Home = () => {
     return (
 
         <div className="container ">
-            <div className="flex p-8 ml-2 ">
-                <div className="flex">
+            <div>
+                <div className="flex mt-4">
                     <Sliderbarproducts/>
                     </div>
 
