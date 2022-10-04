@@ -8,15 +8,13 @@ import herramienta from "../assets/categories/herramienta.jpg";
 import perneria from "../assets/categories/perneria.jpg";
 import pintura from "../assets/categories/pintura.png";
 import acero from "../assets/categories/acero.jpg";
-import CardImage from "../components/BarNavegation/CardImage";
-import FondoBlanco from "../assets/FondoBlanco.jpg"
 import InforHome from "../components/Generico/InforHome";
 import { TbTruckDelivery, TbArrowsJoin2, TbBrowser, TbMessages } from "react-icons/tb";
 
 const Home = () => {
     return (
 
-        <div className="container ">        
+        <div className="container ">
             <div className="flex space-x-6 p-12 ">
                 <InforHome icono={<TbTruckDelivery className="p-6 h-32 w-full text-main" />} title={"Free Delivery"} texto={"For all oders over $99"} />
                 <InforHome icono={<TbArrowsJoin2 className="p-6 h-32 w-full text-main" />} title={"90 Days Return"} texto={"If goods have problems"} />
@@ -25,9 +23,9 @@ const Home = () => {
             </div>
             <div>
                 <div className="flex mt-4">
-                    <Sliderbarproducts/>
+                    <Sliderbarproducts />
                 </div>
-            </div>   
+            </div>
             <div className="flex space-x-2 p-8 ml-2">
                 <TopCategories imgCat={cerrajeria} title={"Cerrajería"} />
                 <TopCategories imgCat={Plomeria} title={"Plomeria"} />
