@@ -12,14 +12,22 @@ const Login = () => {
                 </Link>
             </div>
             <div className="flex justify-center items-center bg-white">
-                <div className="w-full h-full p-4 ">
-                    <form className="">
+                <div className="w-full h-full p-8">
+                    <span className="text-gray-500 font-medium p-2">Log in your Account </span>
+                    <form className="py-6">
                         <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            // className="grow rounded border-2 border-gray-300 py-3 px-3 focus:border-emerald-500 focus:outline-none sm:rounded-l-md sm:rounded-r-none sm:border-r-0"
-                            placeholder="Email Address"
+                            type="username"
+                            name="username"
+                            id="username"
+                            className="grow border-2 mt-0 w-full border-gray-300 py-3 px-3 focus:border-yellow-500 focus:outline-none"
+                            placeholder="Username or email address"
+                        />
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            className="grow border-2 mt-6 w-full border-gray-300 py-3 px-3 focus:border-yellow-500 focus:outline-none"
+                            placeholder="Password"
                         />
                     </form>
                 </div>
