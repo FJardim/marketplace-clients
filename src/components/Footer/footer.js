@@ -3,7 +3,7 @@ import { BsFacebook, BsYoutube, BsTwitter, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-black md:m-auto list-none">
+    <footer className="bg-white text-black md:m-auto list-none p-4">
       <div className="p-6 container flex content-center justify-between">
         <div>
           <p className=" text-l font-sans font-bold text-black mb-4">
@@ -23,7 +23,7 @@ const Footer = () => {
 
           </div>
         </div>
-        <div>
+        <div className="p-2">
           <p className=" text-l font-sans font-bold text-black mb-4">
             Quick Links
           </p>
@@ -35,7 +35,7 @@ const Footer = () => {
             <li>FaQs</li>
           </div>
         </div>
-        <div>
+        <div className="p-2">
           <p className=" text-l font-sans font-bold text-black mb-4">Company</p>
           <div className="text-gray-400">
             <li>About us</li>
@@ -44,7 +44,7 @@ const Footer = () => {
             <li>Contact</li>
           </div>
         </div>
-        <div>
+        <div className="p-2">
           <p className=" text-l font-sans font-bold text-black mb-4">
             Bussiness
           </p>
@@ -56,9 +56,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex  mt-12 text-center justify-center">
+      <div className="flex  mt-4 text-center justify-center">
         <p>
-          &copy; 2022 <span className="text-xl">MarketPlace</span> FJ & LV
+          &copy; 2022 <span className="text-xl text-main-dark">MarketPlace</span> FJ & LV
         </p>
       </div>
     </footer>
