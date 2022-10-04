@@ -3,6 +3,7 @@ import { BsHeart, BsSearch } from "react-icons/bs";
 import Search from "./Search.js";
 import { FaRegUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaStoreAlt } from "react-icons/fa";
 
 const NavegationPrincipal = () => {
   return (
@@ -20,12 +21,13 @@ const NavegationPrincipal = () => {
           <div className="hidden lg:block">
             <Search />
           </div>
-          <div className="ml-4 block lg:hidden">
+          <div className="sm:space-x-1 block lg:hidden">
             <BsSearch className=" hover:text-white h-8 w-8 p-1" />
           </div>
-          <div className="flex items-center sm:ml-4 lg:ml-0">
-            <BsHeart className="h-8 w-8 sm:l-4 hover:text-white" />
-            <AiOutlineShoppingCart className="lg:mx-6 sm:ml-4 h-8 w-8 hover:text-white " />
+          <div className="flex items-center sm:space-x-1 lg:space-x-6">
+            <BsHeart className="h-8 w-8 hover:text-white" />
+            <FaStoreAlt className="h-8 w-8 hover:text-white" />
+            <AiOutlineShoppingCart className=" h-8 w-8 hover:text-white " />
             <FaRegUser className="h-8 w-8 hover:text-white" />
             <div className="sm:hidden lg:block">
               <Link to={"/Login"} className="text-ls font-medium block hover:text-white">
