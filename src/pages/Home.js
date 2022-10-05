@@ -21,7 +21,8 @@ const Home = () => {
                 <div className="flex mt-4">
                     <Sliderbarproducts/>
                     </div>
-                    /</div>            {/* //----felicia */}
+                    /</div>           
+                     {/* //----felicia */}
             <div className="flex space-x-6 p-12 ">
                 <InforHome icono={<TbTruckDelivery className="p-6 h-32 w-full text-main" />} title={"Free Delivery"} texto={"For all oders over $99"} />
                 <InforHome icono={<TbArrowsJoin2 className="p-6 h-32 w-full text-main" />} title={"90 Days Return"} texto={"If goods have problems"} />
@@ -29,12 +30,7 @@ const Home = () => {
                 <InforHome icono={<TbMessages className="p-6 h-32 w-full text-main" />} title={"24/7 Support"} texto={"Dedicated support"} />
             </div>
             {/* < //--------- */}
-            <div className="flex p-8 ml-2 ">
-                <div className="flex">
-                    <CardImage imagen={FondoBlanco} titulo={"Candado Total"} description={"Just $159.59"} text={"Shop Now"} logo={cerrajeria} />
-                    <CardImage imagen={FondoBlanco} titulo={"Candado Total"} description={"Just $159.59"} text={"Comprar"} logo={cerrajeria} />
-                </div>
-            </div>
+
             <div className="flex space-x-2 p-8 ml-2">
                 <TopCategories imgCat={cerrajeria} title={"Cerrajería"} />
                 <TopCategories imgCat={Plomeria} title={"Plomeria"} />
