@@ -53,7 +53,7 @@ const SliderProductHome = () => {
                 </Swiper>
 
             </div>
-            <div className="px-4">
+            <div className="px-4 w-4/12">
                 <TopSeller />
             </div>
 
