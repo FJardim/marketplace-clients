@@ -14,7 +14,6 @@ const TopSeller = () => {
                     <p>1ddddddddddddddddddsdssssssssss</p>
                     <p>1ddddddddddddddddddsdssssssssss</p>
                     <p>1ddddddddddddddddddsdssssssssss</p>
-       >
 
                 </div>
                 <div className="bg-yellow-400 w-full">
