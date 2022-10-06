@@ -11,6 +11,7 @@ import Imagen4 from "../../assets/Imagen4.png";
 import { EffectFade, Navigation, Pagination } from "swiper";
 
 const Sliderbar = () => {
+
   return (
     <>
       <Swiper

@@ -13,14 +13,14 @@ const CardImage = ({ title, img, categories, price }) => {
                 <div className='text-xl px-4 py-3 font-bold text-lime-500'>
                     {price}
                 </div>
-                <button class="bg-main text-white py-2 px-3 rounded my-4 mx-4">
+                <button className="bg-main text-white py-2 px-3 rounded my-4 mx-4">
                     Comprar
                 </button>
             </div>
             <div className="w-full">
                 <img className='w-full h-72' src={img} alt="PopularSearch" />
             </div>
-        </div>
+        </div >
     );
 }
 

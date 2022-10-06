@@ -53,7 +53,7 @@ const Register = () => {
                                 placeholder="Password"
                             />
 
-                            <button className="flex justify-center items-center text-xl font-medium rounded mt-6 h-14 w-full bg-main text-black mr-auto ml-auto"> Login</button>
+                            <button className="flex justify-center items-center text-xl font-medium rounded mt-6 h-14 w-full bg-main text-black mr-auto ml-auto"> Register</button>
                         </form>
                     </div>
                 </div>
