@@ -1,4 +1,7 @@
 import cerrajeria from "../../assets/categories/cerrajeria.jpg";
+import Construccion from "../../assets/categories/Construccion.jpg";
+import electricidad from "../../assets/categories/electricidad.png";
+import pintura from "../../assets/categories/pintura.png";
 import TopSellerProduct from "./TopSellerProduct";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -10,31 +13,31 @@ import clsx from "clsx";
 
 const images = [
     {
-        id: 1, path: cerrajeria
+        id: 1, path: cerrajeria, title: "Cerradura Flip plata con llave ajustable", precio: "$40"
     },
     {
-        id: 2, path: cerrajeria
+        id: 2, path: Construccion, title: "Bloques de cosntrucción", precio: "$2"
     },
     {
-        id: 3, path: cerrajeria
+        id: 3, path: electricidad, title: "Combos de Materiales electricos", precio: "$50"
     },
     {
-        id: 4, path: cerrajeria
+        id: 4, path: pintura, title: "Pintura clases A", precio: "$25"
     },
     {
-        id: 5, path: cerrajeria
+        id: 5, path: Construccion, title: "Bloques de cosntrucción", precio: "$2"
     },
     {
-        id: 6, path: cerrajeria
+        id: 6, path: cerrajeria, title: "Cerradura Flip plata con llave ajustable", precio: "$40"
     },
     {
-        id: 7, path: cerrajeria
+        id: 7, path: electricidad, title: "Combos de Materiales electricos", precio: "$50"
     },
     {
-        id: 8, path: cerrajeria
+        id: 8, path: pintura, title: "Pintura clases A", precio: "$25"
     },
     {
-        id: 9, path: cerrajeria
+        id: 9, path: Construccion, title: "Bloques de cosntrucción", precio: "$2"
     },
 ]
 
@@ -59,8 +62,8 @@ const TopSeller = ({ className, itemsPerSlide = 4 }) => {
                             {images.slice(n * itemsPerSlide, n * itemsPerSlide + itemsPerSlide).map(image => <TopSellerProduct
                                 key={image.id}
                                 imagen={image.path}
-                                title={`Cerradura Flip plata con llave ajustable ${image.id}`}
-                                precio="$40"
+                                title={image.title}
+                                precio={image.precio}
                             />)}
                         </div>
                     </SwiperSlide>)}
