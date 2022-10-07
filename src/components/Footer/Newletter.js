@@ -2,7 +2,7 @@ import React from "react";
 
 const Newletter = () => {
   return (
-    <div className="bg-white p-5 flex">
+    <div className="bg-white sm:p-5 p-6 md:flex">
       <div className="ml-2">
         <p className=" text-2xl  font-bold">Newsletter</p>
         <span className="text-gray-400">

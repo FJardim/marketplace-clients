@@ -3,10 +3,10 @@ import { BsFacebook, BsYoutube, BsTwitter, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-black md:m-auto list-none p-11 mt-4">
-      <div className="p-6 container flex content-center justify-between">
+    <footer className="bg-white text-black md:m-auto list-none sm:p-11 p-4 mt-4">
+      <div className="p-6 container sm:flex content-center justify-between">
         <div>
-          <p className=" text-l font-sans font-bold text-black mb-4">
+          <p className="font-sans font-bold text-black mb-4">
             Contact us{" "}
           </p>
           <li className=" text-gray-400">Call us 24-7</li>
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="p-2">
-          <p className=" text-l font-sans font-bold text-black mb-4">
+          <p className="font-sans font-bold text-black mb-4">
             Quick Links
           </p>
           <div className="text-gray-400">
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="p-2">
-          <p className=" text-l font-sans font-bold text-black mb-4">Company</p>
+          <p className="font-sans font-bold text-black mb-4">Company</p>
           <div className="text-gray-400">
             <li>About us</li>
             <li>Afflitate</li>
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="p-2">
-          <p className=" text-l font-sans font-bold text-black mb-4">
+          <p className="font-sans font-bold text-black mb-4">
             Bussiness
           </p>
           <div className="text-gray-400">

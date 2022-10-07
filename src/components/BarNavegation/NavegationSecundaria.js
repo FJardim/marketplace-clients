@@ -12,7 +12,7 @@ const NavegationSecundaria = () => {
                     <FaTwitter className="hover:text-white cursor-pointer" />
                     <FaYoutube className="hover:text-white cursor-pointer" />
                 </div>
-                <div className="p-4 px-full items-center hidden md:block">
+                <div className="p-4 px-full items-center hidden lg:block">
                     <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Ayudas</span>
                     <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Sobre Nosotros</span>
                     <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Contacto</span>

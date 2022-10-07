@@ -20,7 +20,7 @@ const SliderCajaProduct = () => {
 
     const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
-    return <div className="hidden md:flex">
+    return <div className="hidden lg:flex">
         <div className="px-2 shrink-0 space-y-4">
             {images?.length > 0 &&
                 images?.map((image, i) => <img
