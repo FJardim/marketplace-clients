@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ContenidoProduct from "../Product/ContenidoProduct";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
-import SliderTopSellerProduc from "../Generico/SliderTopSellerProduct";
 import clsx from "clsx";
 import { Autoplay } from "swiper";
 

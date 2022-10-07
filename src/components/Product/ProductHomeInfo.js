@@ -3,8 +3,8 @@ import Star from "../Generico/Star";
 
 const ProductHomeInfo = () => {
     return (
-        <div className="w-6/12 p-2">
-            <p className="text-sm py-2">CONSUMER ELECTRICS</p>
+        <div className="p-2">
+            <p className="text-sm py-2 ml-6">CONSUMER ELECTRICS</p>
             <div className="p-6">
                 <span className="py-8 font-semibold text-xl">Bomba Electrica xxxxxxxxxx xxxxxxxxxx</span>
                 <div className="flex items-center">
