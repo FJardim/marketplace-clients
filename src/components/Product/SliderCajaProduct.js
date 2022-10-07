@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import sampeImage from "../../assets/bomba.jpg";
 
@@ -35,6 +36,8 @@ const SliderCajaProduct = () => {
                 onSwiper={setSwiper}
                 onSlideChange={(swiper) => setActiveSlideIndex(swiper.activeIndex)}
                 autoHeight={true}
+            // modules={[Autoplay]}
+            // autoplay={{ delay: 5000 }}
             >
                 {
                     images?.length > 0 && images?.map(image => <SwiperSlide key={image.id} zoom={{ maxRatio: 2 }}>

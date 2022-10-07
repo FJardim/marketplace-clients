@@ -7,7 +7,7 @@ import candado from "../../assets/candado.png"
 import cerradura from "../../assets/cerradura.png"
 import bomba from "../../assets/bomba.jpg"
 import tomacorriente from "../../assets/tomacorriente.png"
-import { Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 import CardImage from "./CardImage";
 import { useState, useEffect } from "react";
 
@@ -29,7 +29,8 @@ const Sliderbarproducts = () => {
         spaceBetween={20}
         navigation={true}
         loop={true}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
+        autoplay={{ delay: 3000 }}
         style={{ padding: innerWidth > 768 ? '0' : 10 }}
         className="mySwiper "
       >
