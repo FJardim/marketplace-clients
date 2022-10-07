@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import AppLayout from './components/Generico/AppLayout';
 import Home from './pages/Home';
-import ProductDescrip from "./pages/ProductDescrip";
 import Login from "./pages/UserLogin/Login";
 import Register from "./pages/UserLogin/Register";
 import Products from "./pages/Products";
+import ProductDescrip from "./pages/ProductDescrip";
 
 const App = () => {
   return (
