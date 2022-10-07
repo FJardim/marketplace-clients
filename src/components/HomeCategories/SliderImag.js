@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";// Import Swiper React components
-import { Navigation, Pagination } from "swiper";
+import { Autoplay, Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -25,7 +25,8 @@ const SliderImag = () => {
                 slidesPerView={innerWidth > 768 ? 1 : 1}
                 navigation={true}
                 loop={true}
-                modules={[Navigation, Pagination]}
+                modules={[Navigation, Pagination, Autoplay]}
+                autoplay={{ delay: 6000 }}
                 pagination={{
                     clickable: true,
                 }}

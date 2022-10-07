@@ -8,7 +8,7 @@ import herramienta from "../../assets/categories/herramienta.jpg";
 import perneria from "../../assets/categories/perneria.jpg";
 import pintura from "../../assets/categories/pintura.png";
 import acero from "../../assets/categories/acero.jpg";
-import { Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -36,7 +36,8 @@ const SliderCategories = () => {
                 spaceBetween={20}
                 navigation={true}
                 loop={true}
-                modules={[Navigation]}
+                modules={[Navigation, Autoplay]}
+                autoplay={{ delay: 3000 }}
                 style={{ padding: innerWidth > 768 ? '0' : 10 }}
                 className="mySwiper "
             >

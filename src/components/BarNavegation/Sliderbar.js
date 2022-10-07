@@ -8,7 +8,7 @@ import Imagen0 from "../../assets/Imagen0.png";
 import Imagen1 from "../../assets/Imagen1.jpg";
 import Imagen3 from "../../assets/Imagen3.jpg";
 import Imagen4 from "../../assets/Imagen4.png";
-import { EffectFade, Navigation, Pagination } from "swiper";
+import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 
 const Sliderbar = () => {
 
@@ -21,7 +21,8 @@ const Sliderbar = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[EffectFade, Navigation, Pagination]}
+        modules={[EffectFade, Navigation, Pagination, Autoplay]}
+        autoplay={{ delay: 3000 }}
         className="mySwiper"
       >
         <SwiperSlide>
