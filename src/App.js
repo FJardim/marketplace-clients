@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import ProductDescrip from "./pages/ProductDescrip";
 import Login from "./pages/UserLogin/Login";
 import Register from "./pages/UserLogin/Register";
+import Products from "./pages/Products";
 
 const App = () => {
   return (
@@ -13,11 +14,10 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/product" element={<ProductDescrip />} />
+        <Route path="/Products" element={<Products />} />
       </Routes>
     </AppLayout>
   );
-}
+};
 
 export default App;
-
-
