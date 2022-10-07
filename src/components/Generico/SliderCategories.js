@@ -27,7 +27,7 @@ const SliderCategories = () => {
     }, []);
     return (
 
-        <div className="container px-4">
+        <div className="container">
             <div className="bg-white">
                 <p className="text-xl font-semibold p-2 lg:ml-4 sm:text-center lg:text-justify">Top categories of the month</p>
             </div>

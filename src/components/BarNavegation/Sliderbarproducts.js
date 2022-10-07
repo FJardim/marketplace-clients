@@ -23,7 +23,7 @@ const Sliderbarproducts = () => {
     return () => window.removeEventListener('resize', resizeHandler);
   }, []); return (
 
-    <div className="container px-14">
+    <div className="container px-10">
       <Swiper
         slidesPerView={innerWidth > 768 ? 2 : 1}
         spaceBetween={20}

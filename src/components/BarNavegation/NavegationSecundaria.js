@@ -5,7 +5,7 @@ const NavegationSecundaria = () => {
     return (
         <div className=" bg-main-dark text-black h-14 px-8">
             <div className="container flex justify-around ">
-                <div className="flex items-center p-2 space-x-1">
+                <div className="flex items-center space-x-1">
                     <FaFacebook className="hover:text-white cursor-pointer" />
                     <FaInstagram className="hover:text-white cursor-pointer" />
                     <FaLinkedinIn className="hover:text-white cursor-pointer" />

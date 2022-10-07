@@ -3,7 +3,7 @@ import { BsFacebook, BsYoutube, BsTwitter, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-black md:m-auto list-none p-4">
+    <footer className="bg-white text-black md:m-auto list-none p-11 mt-4">
       <div className="p-6 container flex content-center justify-between">
         <div>
           <p className=" text-l font-sans font-bold text-black mb-4">

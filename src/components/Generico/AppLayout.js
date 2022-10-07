@@ -20,7 +20,7 @@ const AppLayout = ({ children }) => {
       <Sliderbar />
       {children}
       <Newletter />
-      <div className="p-0.5"></div>
+      <div className="p-0.5 "></div>
       <Footer />
     </div>
   );
