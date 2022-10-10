@@ -2,29 +2,39 @@ import React from "react";
 
 const Price = () => {
   return (
-    <div className="Container mt-6">
-      <p className="text-lg font-bold">Precio</p>
-      <div className="flex">
-        <p>Min</p>
-        <input
-          type="price"
-          placeholder=""
-          className="border justify-center rounded-lg w-20"
-        />
-        <p>Max</p>
-        <input
-          type="price"
-          placeholder=""
-          className="border justify-center rounded-lg w-20"
-        />
-      </div>
-      <div className="flex justify-between">
-        <button class="bg-main hover:bg-main-dark text-white font-bold py-2 px-2 rounded">
-          Button
-        </button>
-        <button class="bg-main hover:bg-main-dark text-white font-bold py-2 px-2 rounded">
-          Button
-        </button>
+    <div className="lg:ml-6 bg-white lg:w-64 w-56 m-auto md:w-40 rounded-lg shadow mt-4 p-4 ">
+      <div>
+        <h4 className="text-lg font-bold">Precio</h4>
+        <div className="container flex justify-around">
+          <div>
+            <input
+              type="number"
+              id="Precio"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-24 p-2"
+              placeholder="Precio"
+            />
+          </div>
+          <div>
+            <input
+              type="number"
+              id="Precio"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-24 p-2"
+              placeholder="Precio"
+            />
+          </div>
+        </div>
+        <div className="container flex justify-around mt-2">
+          <div>
+            <button className="bg-main hover:bg-main-dark text-white font-bold py-2 px-4 rounded-lg">
+              Comprar
+            </button>
+          </div>
+          <div>
+            <button className="bg-main hover:bg-main-dark text-white font-bold py-2 px-4 rounded-lg">
+              Limpiar
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

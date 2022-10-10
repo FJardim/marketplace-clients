@@ -6,19 +6,11 @@ const Products = () => {
   return (
     <div>
       <BannerTop title="Products" button="Ultimas Entradas" comment="Vista" />
-      <div className="container flex bg-white">
+      <div className="flex">
         <div>
           <MenuLeft />
         </div>
-        <div className="grid grid-cols-4 gap-5">
-          <CajaProduct />
-          <CajaProduct />
-          <CajaProduct />
-          <CajaProduct />
-          <CajaProduct />
-          <CajaProduct />
-          <CajaProduct />
-          <CajaProduct />
+        <div className="grid grid-cols-4 gap-5 p-4">
           <CajaProduct />
           <CajaProduct />
           <CajaProduct />
