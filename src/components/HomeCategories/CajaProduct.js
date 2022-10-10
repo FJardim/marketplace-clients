@@ -1,19 +1,19 @@
-import producto from "../../assets/bomba.jpg";
+// import producto from "../../assets/bomba.jpg";
 import Star from "../Generico/Star";
 
-const CajaProduct = () => {
+const CajaProduct = ({ title, imagen, precio, valor, oferta }) => {
     return (
         <div className="w-full h-full bg-white p-2">
             <div className="text-center ">
                 <div className="flex justify-end ">
-                    <span className="bg-black p-1 text-white text-sm rounded-md font-medium" >Out Of Stock</span>
+                    <span className="bg-black p-1 text-white text-sm rounded-md font-medium" >{oferta}</span>
                 </div>
-                <img src={producto} alt="productos" />
+                <img src={imagen} alt="productos" />
             </div>
             <div className="p-2">
-                <p className="p-1 text-blue-500 font-normal cursor-pointer underline hover:text-main">Bomba xxxxxxxxx xxxxxx</p>
+                <p className="p-1 text-blue-500 font-normal cursor-pointer underline hover:text-main">{title}</p>
                 <Star />
-                <p className="p-1 mt-2">$623.99</p>
+                <p className="p-1 mt-2">{precio}</p>
             </div>
         </div>
     );
