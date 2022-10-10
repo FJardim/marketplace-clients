@@ -6,35 +6,37 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 import cerrajeria from "../../assets/categories/cerrajeria.jpg";
+import acero from "../../assets/categories/acero.jpg";
+import Construccion from "../../assets/categories/Construccion.jpg";
 import TopSellerProduct from "./TopSellerProduct";
 
 const images = [
     {
-        id: 1, path: cerrajeria
+        id: 1, path: acero
     },
     {
         id: 2, path: cerrajeria
     },
     {
-        id: 3, path: cerrajeria
+        id: 3, path: Construccion
     },
     {
-        id: 4, path: cerrajeria
+        id: 4, path: acero
     },
     {
         id: 5, path: cerrajeria
     },
     {
-        id: 6, path: cerrajeria
+        id: 6, path: Construccion
     },
     {
-        id: 7, path: cerrajeria
+        id: 7, path: acero
     },
     {
         id: 8, path: cerrajeria
     },
     {
-        id: 9, path: cerrajeria
+        id: 9, path: Construccion
     },
 ]
 
