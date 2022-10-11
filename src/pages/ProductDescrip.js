@@ -8,6 +8,11 @@ import Tab from "../components/Generico/Tab";
 import TabsContainer from "../components/Generico/TabsContainer";
 import TabPanel from "../components/Generico/TabPanel";
 import { TabsProvider } from "../components/contexts/TabsContexts";
+import DescripcionProd from "../components/Generico/DescripcionProd";
+import VendedorProd from "../components/Generico/VendedorProd";
+import PreguntaRespuesta from "../components/Generico/PreguntaRespuesta";
+import Especificaciones from "../components/Generico/Especificaciones";
+import SliderProdRelacionado from "../components/Generico/SliderProdRelacionados";
 
 const ProductDescrip = () => {
     return (
@@ -52,15 +57,7 @@ const ProductDescrip = () => {
                             className="animate__animated animate__fadeInUp bg-white rounded-lg p-4"
                             value={0}
                         >
-                            <div className="text-justify">
-                                <p className="text-xl font-semibold py-4">Cerradura suelta "Titulo"</p>
-                                <p className="text-gray-400">mbodying the raw, wayward spirit of rock
-                                    ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.
-                                    Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class,
-                                    the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced.
-                                    The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.
-                                </p>
-                            </div>
+                            <DescripcionProd title={"Cerradura suelta - Titulo"} parrafo={"mbodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road. Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel."} />
                         </TabPanel>
 
                         {/* Especificación */}
@@ -68,7 +65,7 @@ const ProductDescrip = () => {
                             className="animate__animated animate__fadeInUp bg-white rounded-lg p-4"
                             value={1}
                         >
-
+                            <Especificaciones color={"Oro"} dimensiones={"5.5 x 5.5 x 9.5 inches"} marcas={"Casi"} status={"Status"} />
                         </TabPanel>
 
                         {/* Vendedor */}
@@ -76,12 +73,7 @@ const ProductDescrip = () => {
                             className="animate__animated animate__fadeInUp bg-white rounded-lg p-4"
                             value={2}
                         >
-                            <div className="text-justify">
-                                <p className="text-xl font-semibold py-4">GoPro</p>
-                                <p className="text-gray-400">Digiworld US, New York’s no.1 online retailer was established in May 2012 with the aim and vision to become the one-stop shop for retail in New York with implementation of best practices both online
-                                </p>
-                            </div>
-
+                            <VendedorProd title={"GoPro"} parrafo={"Digiworld US, New York’s no.1 online retailer was established in May 2012 with the aim and vision to become the one-stop shop for retail in New York with implementation of best practices both online"} />
                         </TabPanel>
 
                         {/* Preguntas Frecuentes */}
@@ -89,13 +81,13 @@ const ProductDescrip = () => {
                             className="animate__animated animate__fadeInUp bg-white rounded-lg p-4"
                             value={3}
                         >
-                            <div className="ml-2">
-                                <p className="text-2xl font-bold py-4 ">Preguntas y Respuestas</p>
-                                <input className="p-2 w-full border-gray-300 " type="text" placeholder="Tienes Algunas pregunta? o Respuesta?" />
-                            </div>
+                            <PreguntaRespuesta title={"Preguntas y Respuestas"} />
                         </TabPanel>
                     </div>
                 </TabsProvider>
+            </div>
+            <div className="p-4">
+                <SliderProdRelacionado />
             </div>
         </div >
 
