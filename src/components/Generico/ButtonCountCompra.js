@@ -7,7 +7,7 @@ const ButtonCountCompra = () => {
     return (
         <div className="justify-center flex p-2 text-base font-medium space-x-2" >
             <p className="text-center py-4">Cantidad</p>
-            <div className="bg-white rounded-md ro">
+            <div className="bg-white rounded-md">
                 <button onClick={() => {
                     if (count === 0) return;
                     setCount(count - 1)
