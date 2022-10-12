@@ -11,8 +11,8 @@ const NavegationPrincipal = () => {
       <div className="container h-full">
         <div className="flex justify-content items-center lg:p-0">
           <div className="flex lg:p-2 md:p-2 ">
-            <h1 className="lg:text-3xl font-bold sm:text-xl">Market</h1>
-            <h1 className="lg:text-3xl font-bold text-white sm:text-xl">Place</h1>
+            <Link to={"/"} className="lg:text-3xl font-bold sm:text-xl">Market</Link>
+            <Link to={"/"} className="lg:text-3xl font-bold text-white sm:text-xl">Place</Link>
           </div>
           <button className="flex-wrap lg:px-10 sm:px-6 sm:mt-2 ">
             <AiOutlineMenu className="h-8 w-8" />
