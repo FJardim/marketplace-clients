@@ -6,6 +6,7 @@ import Register from "./pages/UserLogin/Register";
 import Products from "./pages/Products";
 import ProductDescrip from "./pages/ProductDescrip";
 import CartDetallesProducts from "./pages/CartDetallesProducts";
+import StoreBrand from "./pages/StoreBrand";
 import ListTiendas from "./pages/ListTiendas";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/product" element={<ProductDescrip />} />
         <Route path="/products" element={<Products />} />
         <Route path="/cartdetailsproducts" element={<CartDetallesProducts />} />
+        <Route path="/storebrand" element={<StoreBrand />} />
         <Route path="/listadetiendas" element={<ListTiendas />} />
       </Routes>
     </AppLayout>
