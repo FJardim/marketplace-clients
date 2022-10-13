@@ -3,6 +3,7 @@ import BannerTop from "../components/Generico/BannerTop";
 import MenuLeft from "../components/MenuLeft/MenuLeft";
 import CajaProduct from "../components/HomeCategories/CajaProduct";
 import bomba from "../assets/bomba.jpg";
+import { Link } from "react-router-dom";
 const Products = () => {
   return (
     <div>
@@ -12,12 +13,14 @@ const Products = () => {
           <MenuLeft />
         </div>
         <div className="grid md:grid-cols-4 lg: grid-cols-1 gap-5 p-4">
-          <CajaProduct
-            oferta="24.36"
-            title="Candado"
-            imagen={bomba}
-            precio="$48.36"
-          />
+          <Link to={"/product"}>
+            <CajaProduct
+              oferta="24.36"
+              title="Candado"
+              imagen={bomba}
+              precio="$48.36"
+            />
+          </Link>
           <CajaProduct
             oferta="24.36"
             title="Candado"

@@ -41,7 +41,7 @@ const SliderCajaProduct = () => {
                         <div className="swiper-zoom-container">
                             <img
                                 src={image.path}
-                                alt=""
+                                alt="NombreProducto"
                                 className="rounded-xl w-full h-96"
                             />
                         </div>
