@@ -16,7 +16,7 @@ const ProductHomeInfo = () => {
                     <p className="border-t-2 border-gray-400 font-normal text-sm pt-2">Status:</p>
                     <p className="font-normal text-sm ">Sold By:</p>
                     <p className="pt-4 font-semibold">Descripción del Producto:</p>
-                    <p className="flex">on máquinas en las cuales se produce una transformación de la energía mecánica en energía hidráulica (velocidad y presión) comunicada al fluido que circula por ellas.</p>
+                    <p className="flex">Con máquinas en las cuales se produce una transformación de la energía mecánica en energía hidráulica (velocidad y presión) comunicada al fluido que circula por ellas.</p>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 const Especificaciones = ({ color, dimensiones, marcas, status }) => {
     return (
         <div>
-            <div className="grid grid-cols-2 gap-[1px] border-gray-300 border-gray-300  border-2">
+            <div className="grid grid-cols-2 gap-[1px] border-gray-300 border-2">
                 <div className="border-r-2 text-xl font-semibold">
                     <p className="bg-gray-100 border-gray-300 border-b-2 p-2">Color</p>
                     <p className="bg-gray-100 border-gray-300 border-b-2 p-2">Dimensiones</p>
