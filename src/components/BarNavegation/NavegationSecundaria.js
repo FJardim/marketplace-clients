@@ -1,5 +1,6 @@
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
 import { AiOutlineBars } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const NavegationSecundaria = () => {
     return (
@@ -13,11 +14,10 @@ const NavegationSecundaria = () => {
                     <FaYoutube className="hover:text-white cursor-pointer" />
                 </div>
                 <div className="p-4 px-full items-center hidden lg:block">
-                    <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Ayudas</span>
+                    <Link to={"/ayudas"} className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Ayudas</Link>
                     <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Sobre Nosotros</span>
                     <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Contacto</span>
-                    <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Vender en Sínoxsa</span>
-                    <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Tiendas</span>
+                    <Link to={"/listadetiendas"} className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Tiendas</Link>
                     <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Hotline: <b>1-800-234-5678</b></span>
                 </div>
                 <div className="lg:hidden block ml-auto justify-end items-center">
