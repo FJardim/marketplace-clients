@@ -7,6 +7,7 @@ import TiendaInfo from "../components/Generico/TiendaInfo";
 import lideres from "../assets/lideres.jpg";
 import BannerNosotros from "../components/Generico/BannerNosotros";
 import nosotros from "../assets/nosotros.jpg";
+
 const Nosotros = () => {
   return (
     <div className="bg-white">

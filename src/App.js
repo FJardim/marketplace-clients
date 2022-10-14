@@ -10,6 +10,8 @@ import StoreBrand from "./pages/StoreBrand";
 import ListTiendas from "./pages/ListTiendas";
 import Nosotros from "./pages/Nosotros";
 import Ayudas from "./pages/Ayudas";
+import Compra from "./pages/Compra";
+import Pagos from "./pages/Pagos";
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
         <Route path="/listadetiendas" element={<ListTiendas />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/ayudas" element={<Ayudas />} />
+        <Route path="/compra" element={<Compra />} />
+        <Route path="/pagos" element={<Pagos />} />
       </Routes>
     </AppLayout>
   );
