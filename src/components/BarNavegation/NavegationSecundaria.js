@@ -1,6 +1,7 @@
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
 import { AiOutlineBars } from "react-icons/ai";
 import { Link } from "react-router-dom";
+// import PedidosRealizados from "../Pedidos/PedidosRealizados";
 
 const NavegationSecundaria = () => {
     return (
@@ -15,10 +16,10 @@ const NavegationSecundaria = () => {
                 </div>
                 <div className="p-4 px-full items-center hidden lg:block">
                     <Link to={"/ayudas"} className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Ayudas</Link>
-                    <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Sobre Nosotros</span>
-                    <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Contacto</span>
+                    <Link to={"/nosotros"} className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Sobre Nosotros</Link>
+                    <Link className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Contacto</Link>
                     <Link to={"/listadetiendas"} className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Tiendas</Link>
-                    <span className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Hotline: <b>1-800-234-5678</b></span>
+                    <Link className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Hotline: <b>1-800-234-5678</b></Link>
                 </div>
                 <div className="lg:hidden block ml-auto justify-end items-center">
                     <AiOutlineBars className="h-8 w-8 m-2.5" />
@@ -31,6 +32,8 @@ const NavegationSecundaria = () => {
                 </div>
 
             </div>
+
+            {/* <PedidosRealizados show={false} /> */}
         </div>
     );
 }
