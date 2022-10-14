@@ -10,6 +10,7 @@ import StoreBrand from "./pages/StoreBrand";
 import ListTiendas from "./pages/ListTiendas";
 import Nosotros from "./pages/Nosotros";
 import Ayudas from "./pages/Ayudas";
+import Contacto from "./pages/Contacto";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/listadetiendas" element={<ListTiendas />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/ayudas" element={<Ayudas />} />
+        <Route path="/contacto" element={<Contacto />} />
       </Routes>
     </AppLayout>
   );

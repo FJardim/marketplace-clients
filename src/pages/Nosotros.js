@@ -1,6 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { BiCube, BiStoreAlt, BiShoppingBag, BiMoney } from "react-icons/bi";
-import BannerTop from "../components/Generico/BannerTop";
 import NumbersStore from "../components/Generico/NumbersStore";
 import ProfileLider from "../components/Generico/ProfileLider";
 import TiendaInfo from "../components/Generico/TiendaInfo";
@@ -10,7 +10,12 @@ import nosotros from "../assets/nosotros.jpg";
 const Nosotros = () => {
   return (
     <div className="bg-white">
-      <BannerTop title="Home/Sobre Nosotros" />
+      <div className="flex p-6">
+        <Link to={"/"} className="text-blue-600 cursor-pointer">
+          Home/
+        </Link>
+        <p>Nosotros</p>
+      </div>
       <BannerNosotros image={nosotros} title=" Sobre Nosotros" />
       <div>
         <TiendaInfo
