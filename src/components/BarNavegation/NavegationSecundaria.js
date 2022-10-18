@@ -17,7 +17,7 @@ const NavegationSecundaria = () => {
                 <div className="p-4 px-full items-center hidden lg:block">
                     <Link to={"/ayudas"} className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Ayudas</Link>
                     <Link to={"/nosotros"} className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Sobre Nosotros</Link>
-                    <Link className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Contacto</Link>
+                    <Link to={"/contacto"} className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Contacto</Link>
                     <Link to={"/listadetiendas"} className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Tiendas</Link>
                     <Link className="px-6 border-r-2 border-slate-400 cursor-pointer hover:text-white">Hotline: <b>1-800-234-5678</b></Link>
                 </div>
